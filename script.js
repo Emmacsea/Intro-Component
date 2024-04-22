@@ -38,7 +38,7 @@ submit.addEventListener('click', () => {
     }
 
     if (password.value === ''){
-        displayPassword.textContent = `Looks like this is not an email`;
+        displayPassword.textContent = `password cannot be empty`;
         displayPassword.style.color = `hsl(0, 100%, 74%)`;
         password.style.border = `1px solid hsl(0, 100%, 74%)`
         span3.classList = "o"
