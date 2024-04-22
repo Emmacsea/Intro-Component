@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.signup {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10em;
+    font-family: "Poppins";
+}
+
+.signup .learn {
+    max-width: 500px;
+}
+
+.learn h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 2.4em;
+    line-height: 1em;
+}
+
+.learn p {
+    color: hsl(0, 0%, 100%);
+    font-size: .9em;
+    margin-top: 1.1em;
+
+}
+
+.signup .login{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login h3 {
+    background: hsl(248, 32%, 49%);
+    padding: .6em;
+    font-size: 1em;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 1.2em;
+    border-radius: .5em;
+}
+
+.login h3 span {
+    color: lightgrey;
+}
+
+.login form {
+    background: hsl(0, 0%, 100%);
+    padding: 1.5em;
+    border-radius: .5em;
+}
+
+form .input-details {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .7em;
+}
+
+.input-details input {
+    
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: .8em 1.4em;
+    border-radius: .6em;
+    font-size: 1em;
+    font-weight: 300;
+    color: hsl(249, 10%, 26%);
+}
+
+.input-details input:focus {
+    border: 1px solid hsl(246, 25%, 77%);
+    
+}
+
+.input-details input::placeholder {
+    font-size: .8em;
+    color: hsl(249, 10%, 26%);
+}
+
+.input-details span img {
+    position: absolute;
+    top: 20%;
+    right: 1em;
+    width: 18px;
+    height: 18px;
+}
+
+.input-details .disp {
+    align-self: end;
+    margin: .3em;
+}
+
+.i {
+    display: none;
+}
+
+.o{
+    display: block;
+}
+
+form input[type="button"]{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: hsl(154, 59%, 51%);
+    padding: .9em .7em;
+    margin: 1em 0;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+form p {
+    text-align: center;
+    font-size: .6em;
+    color: lightgrey;
+}
+
+form p span {
+    color: hsl(0, 100%, 74%);
+}
